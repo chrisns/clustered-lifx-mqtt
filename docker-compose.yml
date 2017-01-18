@@ -1,6 +1,6 @@
 version: "3"
 services:
-  mqtt_slave:
+  worker:
     deploy:
       mode: replicated
       replicas: 1
